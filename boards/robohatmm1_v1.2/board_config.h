@@ -49,8 +49,8 @@
 #define CONFIG_ADC_INPUT_2_CHANNEL 7
 
 #define CONFIG_ADC_INPUT_3 0
-//#define CONFIG_ADC_INPUT_3_PIN 4	//PA04 - RCH_1
-//#define CONFIG_ADC_INPUT_3_CHANNEL 4
+#define CONFIG_ADC_INPUT_3_PIN 4	//PA04 - RCH_1
+#define CONFIG_ADC_INPUT_3_CHANNEL 4
 
 
 
@@ -59,7 +59,7 @@
 #define CONFIG_DAC 0
 
 //* ============== LOG =================== *//
-#define ENABLE_LOGGING 1
+//#define ENABLE_LOGGING 1
 
 
 //* ============== TOUCH =================== *//
